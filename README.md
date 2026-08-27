@@ -1,5 +1,5 @@
 # chat-frontend
-
+![alt text](image.png)
 对接 `code-assistant-agent` 后端的 **Vue 3 流式聊天前端**。通过 `fetch` + `ReadableStream` 逐行解析后端推送的 NDJSON 事件，实现助手回复的**逐字流式输出**；使用 Element Plus 搭建界面、`marked` + `DOMPurify` 渲染 Markdown。
 
 ## 技术栈
